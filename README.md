@@ -1,3 +1,11 @@
+# 変更点
+
+PyTorch1.1以上に対応するようにコードの修正を行いました。  
+StanfordNLPの呼び出し方法を変更しました。  
+StanfordNLPの呼び出しをcorenlp.shを使用して行うように変更したため、-sh_pathオプションを追加しました。  
+
+---
+
 # BertSum
 
 **This code is for paper `Fine-tune BERT for Extractive Summarization`**(https://arxiv.org/pdf/1903.10318.pdf)
